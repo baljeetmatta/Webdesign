@@ -2,25 +2,55 @@
     <body> 
         <form action="/Data">
             <p>
-       Name <input type="text" name="fullname" placeholder="type your full name"/>
+        <input type="text" name="fullname" placeholder="Name"/>
        </p>
-        <p>Age<input type="text" />
+        <p><input type="text" placeholder="Age" />
             </p>
             <input type="number"/>
             <input type="password"/>
             <input type="date"/>
             <input type="email"/>
              <input type="time"/>
-             <input type="radio" name="gender" value="0">Male
-             <input type="radio" name="gender" value="1">Female
+             <div><input type="radio" name="gender" value="0">Male
+             <input type="radio" name="gender" value="1">Female</div>
 
-  <input type="radio" name="skills" value="0">Webdesign
-             <input type="radio" name="skills" value="1">Web Development
+ <p><input type="radio" name="skills" value="0">Webdesign
+             <input type="radio" name="skills" value="1">Web Development</p> 
 
-<input type="checkbox" name="terms">I agree to terms and conditionss
-<input type="checkbox" name="terms">I agree to terms and conditionss
+<p><input type="checkbox" name="terms">I agree to terms and conditions</p>
+
         <input type="submit" value="Login"/>
         <input type="reset" value="clear"/>
+            <input type="button" value="Demo"/>
+            <input type="hidden" name="type" value="contactform"/>
+        <select name="course">
+            <option>Web Design</option>
+            <option>Development</option>
+            <option>Testing</option>
+        </select>
+        <select name="package">
+            <option value="12000">Standard Package -12000</option>
+            <option selected value="15000">Delux Package -15000</option>
+            <option value="18000">X-18000</option>
+        </select>
+        <select name="skill" multiple>
+            <option>Html</option>
+            <option>CSS</option>
+            <option>Photshop</option>
+            <option>XYZ</option>
+        </select>
+        <p>
+        <textarea name="address" cols="50" rows="20"></textarea>
+            </p>
+
+            <div>
+            Paragraph 1
+            </div>
+            <span>Hello</span> asdasd   
+             <div>Welcome <span>Name</span> to our site</div>asdsa
+             <p>a skldjsald saldsa dkj A Container for Text</p>
+
 </form>
+<div>lkjlekwr</div>
     </body>
 </html>
