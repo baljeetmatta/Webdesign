@@ -1,0 +1,28 @@
+#nav ul{
+
+    list-style-type:none;
+   
+}
+#nav li{
+   display: inline;
+   
+   
+}
+#nav li a{
+    text-decoration: none;
+    color:white;
+    padding:10px;
+   
+
+}
+#nav a:hover{
+    background-color:greenyellow;
+    
+}
+/*DIV*/
+#nav{
+background-color: black;
+}
+body{
+    margin: 0px;
+}
